@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frontend</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css">
+
+</head>
+<body>
+<h1>Front end homework</h1>
+
+<div class="mid-container">
+
+<h2 id="hidden-sensors-heading" hidden>Hidden columns:</h2>
+<div id="hidden-sensors">
+
+    <ul></ul>
+</div>
+
+<div class="filters">
+    <div>
+        <label for="filter-name">Sensor name:</label>
+        <input id="filter-name" name="filter-name" type="text" placeholder="..."/>
+    </div>
+    <div>
+        <label for="filter-variant">Sensor variant:</label>
+        <input id="filter-variant" name="filter-variant" type="text" placeholder="..."/>
+    </div>
+</div>
+
+    <table id="main-data" class="display">
+        <thead>
+        <tr>
+            <th>
+                Sensor name
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<div>
+<br><br><br>
+<button class="remove-column" title="remove column">X</button>
+<br><br><br>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js" integrity="sha384-JQOveGFp+ebVxM94coUF7x6YiAUYRPGJb1VhPi3xz7/Uv36AewFNY2AS5PxQh7Vz" crossorigin="anonymous"></script>
+<script src="data.js"></script>
+<script src="main.js"></script>
+</html>
+
+
+
+
+
